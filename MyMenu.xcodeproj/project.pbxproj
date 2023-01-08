@@ -18,6 +18,7 @@
 		EEC44B3B296A6D5F00079224 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = EEC44B3A296A6D5F00079224 /* menu.json */; };
 		EEC44B3D296A6D6D00079224 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B3C296A6D6D00079224 /* Helper.swift */; };
 		EEC44B3F296A782000079224 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B3E296A782000079224 /* ItemRow.swift */; };
+		EEC44B41296A7BBB00079224 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B40296A7BBB00079224 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		EEC44B3A296A6D5F00079224 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		EEC44B3C296A6D6D00079224 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		EEC44B3E296A782000079224 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		EEC44B40296A7BBB00079224 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				EEC44B0D2966ACA300079224 /* MyMenuApp.swift */,
 				EEC44B0F2966ACA300079224 /* ContentView.swift */,
+				EEC44B40296A7BBB00079224 /* ItemDetail.swift */,
 				EEC44B112966ACA400079224 /* Assets.xcassets */,
 				EEC44B37296A6D0E00079224 /* Utilities  */,
 				EEC44B132966ACA400079224 /* Preview Content */,
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC44B39296A6D4F00079224 /* Menu.swift in Sources */,
+				EEC44B41296A7BBB00079224 /* ItemDetail.swift in Sources */,
 				EEC44B102966ACA300079224 /* ContentView.swift in Sources */,
 				EEC44B3F296A782000079224 /* ItemRow.swift in Sources */,
 				EEC44B0E2966ACA300079224 /* MyMenuApp.swift in Sources */,
