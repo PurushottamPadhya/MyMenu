@@ -14,6 +14,10 @@
 		EEC44B1F2966ACA500079224 /* MyMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B1E2966ACA500079224 /* MyMenuTests.swift */; };
 		EEC44B292966ACA500079224 /* MyMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B282966ACA500079224 /* MyMenuUITests.swift */; };
 		EEC44B2B2966ACA500079224 /* MyMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B2A2966ACA500079224 /* MyMenuUITestsLaunchTests.swift */; };
+		EEC44B39296A6D4F00079224 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B38296A6D4F00079224 /* Menu.swift */; };
+		EEC44B3B296A6D5F00079224 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = EEC44B3A296A6D5F00079224 /* menu.json */; };
+		EEC44B3D296A6D6D00079224 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B3C296A6D6D00079224 /* Helper.swift */; };
+		EEC44B3F296A782000079224 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B3E296A782000079224 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		EEC44B242966ACA500079224 /* MyMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC44B282966ACA500079224 /* MyMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMenuUITests.swift; sourceTree = "<group>"; };
 		EEC44B2A2966ACA500079224 /* MyMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEC44B38296A6D4F00079224 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		EEC44B3A296A6D5F00079224 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		EEC44B3C296A6D6D00079224 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		EEC44B3E296A782000079224 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 				EEC44B0D2966ACA300079224 /* MyMenuApp.swift */,
 				EEC44B0F2966ACA300079224 /* ContentView.swift */,
 				EEC44B112966ACA400079224 /* Assets.xcassets */,
+				EEC44B37296A6D0E00079224 /* Utilities  */,
 				EEC44B132966ACA400079224 /* Preview Content */,
 			);
 			path = MyMenu;
@@ -125,6 +134,17 @@
 				EEC44B2A2966ACA500079224 /* MyMenuUITestsLaunchTests.swift */,
 			);
 			path = MyMenuUITests;
+			sourceTree = "<group>";
+		};
+		EEC44B37296A6D0E00079224 /* Utilities  */ = {
+			isa = PBXGroup;
+			children = (
+				EEC44B3C296A6D6D00079224 /* Helper.swift */,
+				EEC44B3A296A6D5F00079224 /* menu.json */,
+				EEC44B38296A6D4F00079224 /* Menu.swift */,
+				EEC44B3E296A782000079224 /* ItemRow.swift */,
+			);
+			path = "Utilities ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC44B3B296A6D5F00079224 /* menu.json in Resources */,
 				EEC44B152966ACA400079224 /* Preview Assets.xcassets in Resources */,
 				EEC44B122966ACA400079224 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC44B39296A6D4F00079224 /* Menu.swift in Sources */,
 				EEC44B102966ACA300079224 /* ContentView.swift in Sources */,
+				EEC44B3F296A782000079224 /* ItemRow.swift in Sources */,
 				EEC44B0E2966ACA300079224 /* MyMenuApp.swift in Sources */,
+				EEC44B3D296A6D6D00079224 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
