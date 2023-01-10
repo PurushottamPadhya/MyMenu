@@ -19,6 +19,10 @@
 		EEC44B3D296A6D6D00079224 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B3C296A6D6D00079224 /* Helper.swift */; };
 		EEC44B3F296A782000079224 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B3E296A782000079224 /* ItemRow.swift */; };
 		EEC44B41296A7BBB00079224 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B40296A7BBB00079224 /* ItemDetail.swift */; };
+		EEC44B43296A7FF500079224 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B42296A7FF500079224 /* Order.swift */; };
+		EEC44B45296D25DE00079224 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B44296D25DE00079224 /* OrderView.swift */; };
+		EEC44B47296D3BFB00079224 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B46296D3BFB00079224 /* MainView.swift */; };
+		EEC44B49296D3E1C00079224 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC44B48296D3E1C00079224 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		EEC44B3C296A6D6D00079224 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		EEC44B3E296A782000079224 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		EEC44B40296A7BBB00079224 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		EEC44B42296A7FF500079224 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EEC44B44296D25DE00079224 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		EEC44B46296D3BFB00079224 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EEC44B48296D3E1C00079224 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +113,11 @@
 			isa = PBXGroup;
 			children = (
 				EEC44B0D2966ACA300079224 /* MyMenuApp.swift */,
+				EEC44B48296D3E1C00079224 /* CheckoutView.swift */,
 				EEC44B0F2966ACA300079224 /* ContentView.swift */,
 				EEC44B40296A7BBB00079224 /* ItemDetail.swift */,
+				EEC44B44296D25DE00079224 /* OrderView.swift */,
+				EEC44B46296D3BFB00079224 /* MainView.swift */,
 				EEC44B112966ACA400079224 /* Assets.xcassets */,
 				EEC44B37296A6D0E00079224 /* Utilities  */,
 				EEC44B132966ACA400079224 /* Preview Content */,
@@ -144,6 +155,7 @@
 			children = (
 				EEC44B3C296A6D6D00079224 /* Helper.swift */,
 				EEC44B3A296A6D5F00079224 /* menu.json */,
+				EEC44B42296A7FF500079224 /* Order.swift */,
 				EEC44B38296A6D4F00079224 /* Menu.swift */,
 				EEC44B3E296A782000079224 /* ItemRow.swift */,
 			);
@@ -282,11 +294,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC44B39296A6D4F00079224 /* Menu.swift in Sources */,
+				EEC44B47296D3BFB00079224 /* MainView.swift in Sources */,
+				EEC44B49296D3E1C00079224 /* CheckoutView.swift in Sources */,
+				EEC44B45296D25DE00079224 /* OrderView.swift in Sources */,
 				EEC44B41296A7BBB00079224 /* ItemDetail.swift in Sources */,
 				EEC44B102966ACA300079224 /* ContentView.swift in Sources */,
 				EEC44B3F296A782000079224 /* ItemRow.swift in Sources */,
 				EEC44B0E2966ACA300079224 /* MyMenuApp.swift in Sources */,
 				EEC44B3D296A6D6D00079224 /* Helper.swift in Sources */,
+				EEC44B43296A7FF500079224 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

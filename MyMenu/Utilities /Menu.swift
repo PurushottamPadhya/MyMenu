@@ -1,6 +1,6 @@
 //
 //  Menu.swift
-//  iDine
+//  MyMenu
 //
 //  Created by Purushottam Padhya on 5/1/2023.
 //
